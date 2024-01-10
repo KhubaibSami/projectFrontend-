@@ -6,9 +6,10 @@ import About from "../components/about/about";
 
 import Nonlayout from "../pages/nonlayout";
 import Contact from "../contact";
-import Login from "../modules/form/login/login";
-import Signup from "../modules/form/signup/signup";
-import Reset from "../modules/form/resetPassword/reset";
+import Faq from "../components/FAQ/faq";
+import Login from "../modules/form/components/login/login";
+import Signup from "../modules/form/components/signup/signup";
+import Reset from "../modules/form/components/resetPAssword/resetPAssword";
 
 const Routing = () => {
   return (
@@ -18,6 +19,7 @@ const Routing = () => {
           <Route path="/" element={<Nonlayout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={ <Faq/> }/>
         </Route>
         <Route path="*" element={<NotFound />} />
         <Route path="/login" element={<Login />} />

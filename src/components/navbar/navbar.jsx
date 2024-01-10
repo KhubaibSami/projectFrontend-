@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 fixed w-full">
+        <nav className="bg-blue-500 border-blue-200 px-4 lg:px-6 py-2.5 hover:bg-blue-600 fixed w-full">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <Link to="/" className="flex items-center">
               <img
@@ -14,27 +14,27 @@ const Navbar = () => {
                 className="mr-3 h-6 sm:h-9"
                 alt="Flowbite Logo"
               />
-              <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
                 Services
               </span>
             </Link>
             <div className="flex items-center lg:order-2">
               <Link
                 to="/login"
-                className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+                className="text-white hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
                 Log in
               </Link>
               <Link
                 to="/signup"
-                className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
                 Get started
               </Link>
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 ml-1 text-sm text-blue-500 rounded-lg lg:hidden hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-200 dark:text-blue-200 dark:hover:bg-blue-700 dark:focus:ring-blue-600"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
@@ -73,7 +73,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="#"
-                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                    className="block py-2 pr-4 pl-3 text-white rounded bg-blue-700 lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
                     Home
@@ -82,7 +82,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/about"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-blue-700 border-b border-blue-100 hover:bg-blue-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-blue-200 lg:dark:hover:text-white dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                   >
                     Company
                   </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-blue-700 border-b border-blue-100 hover:bg-blue-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-blue-200 lg:dark:hover:text-white dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                   >
                     Marketplace
                   </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-blue-700 border-b border-blue-100 hover:bg-blue-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-blue-200 lg:dark:hover:text-white dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                   >
                     Features
                   </Link>
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-blue-700 border-b border-blue-100 hover:bg-blue-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-blue-200 lg:dark:hover:text-white dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                   >
                     Team
                   </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/contact"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pr-4 pl-3 text-blue-700 border-b border-blue-100 hover:bg-blue-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-blue-200 lg:dark:hover:text-white dark:hover:bg-blue-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                   >
                     Contact
                   </Link>

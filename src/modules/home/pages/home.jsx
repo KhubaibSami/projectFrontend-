@@ -4,6 +4,7 @@ import Services from '../components/services/services'
 import Statics from '../components/statics/statics'
 import Pricing from '../components/Pricing/pricing'
 import Testimonial from '../components/testimonial/testimonial'
+import Company from '../components/Company/company'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
        <Statics />
        <Pricing />
        <Testimonial />
+       <Company />
     </>
   )
 }
